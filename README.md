@@ -1,4 +1,4 @@
-#SpiderTrap
+SpiderTrap
 ==========
 
 An http server that responds with an ever-expanding web of links. Use it
@@ -7,17 +7,14 @@ to test, benchmark, and confuse web crawlers.
 Implemented as a simple python script with no dependencies other than
 the standard library. Works with python 2.7 and python 3.
 
-#Installation
+Installation
 ------------
 
-::
 
     $ pip install spidertrap
 
 #Usage
 -----
-
-::
 
     spidertrap [-h] [-p PORT] [--fanout FANOUT]
 
@@ -26,7 +23,7 @@ the standard library. Works with python 2.7 and python 3.
       -p PORT, --port PORT  [9999]
       --fanout FANOUT       Number of links to create on each page [2]
 
-#License
+License
 -------
 
 MIT
